@@ -33,7 +33,7 @@ basspiano = \relative c, {
 \time 6/8
 \key f \major
 
-  <<f2. a c>>
+  <<f2.-5 a-3 c-1>>
 
 }
 
