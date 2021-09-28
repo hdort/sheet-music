@@ -28,13 +28,34 @@ melody =  \relative c' {
   }
 
 
-basspiano = \relative c, {
+basspiano = \relative c {
 \clef bass
 \time 6/8
 \key f \major
 
-  <<f2.-5 a-3 c-1>>
+  <<c2. f a>>
+  <<d, g bes>>
+  <<e, g bes>>
+  <<f4. bes d >>
+  <<c, f a>>
 
+  <<c,2. f a>>
+  <<d, g bes>>
+  <<e, g bes>>
+  <<bes,4. d f>>
+  <<c f a>>
+
+  <<c,2. f a>>
+  <<d, g bes>>
+  <<e, g bes>>
+  <<f4. bes d >>
+  <<c, f a>>
+
+  <<c,2. f a>>
+  <<d, g bes>>
+  <<e, g bes>>
+  <<bes,4. d f>>
+  <<c f a>>
 }
 
 text = \lyricmode {
