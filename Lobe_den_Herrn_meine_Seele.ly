@@ -1,14 +1,14 @@
 \header {
-  title = "Lobe den Herrn, meine Seele (Kanon)"
+  title = "Lobe den Herrn, meine Seele (Kanon)" 
 }
 
 melody =  \relative c' {
 \time 6/8
 
 \key f \major
-    c8 f g a g f |
-    g4. d \breathe |
-    c8 e f g a bes |
+    c8-1 f-2 g a g f |
+    g4. d-2 \breathe |
+    c8-1 e f g-1 a bes |
     bes4. a \breathe |
 
     c,8 f g a g f |
@@ -18,13 +18,13 @@ melody =  \relative c' {
 
     c' c |
     c8 bes a bes4. \breathe |
-    c8 g a bes c d |
+    c8 g-1 a bes c d |
     d4. c \breathe |
 
     c c |
     c8 bes a bes4. \breathe |
     c8 g a bes a g |
-    f4. f \fermata \bar "|."
+    f4.-2 f \fermata \bar "|."
   }
 
 
@@ -33,17 +33,17 @@ basspiano = \relative c {
 \time 6/8
 \key f \major
 
-  <<c2. f a>>
-  <<d, g bes>>
-  <<e, g bes>>
-  <<f4. bes d >>
+  <<c2.-5 f-2 a-1>>
+  <<d,-4 g-2 bes-1>>
+  <<e,-3 g-2 bes-1>>
+  <<f4.-1 bes-3 d-5 >>
   <<c, f a>>
 
   <<c,2. f a>>
   <<d, g bes>>
   <<e, g bes>>
   <<bes,4. d f>>
-  <<c f a>>
+  <<c-5 f-3 a-1>>
 
   <<c,2. f a>>
   <<d, g bes>>
